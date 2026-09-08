@@ -1,8 +1,10 @@
-const CATALOGS = ["Messier", "Caldwell", "NGC", "IC", "Other"];
+const CATALOG_ORDER = ["Messier", "Caldwell", "NGC", "IC", "Other"];
+const TYPE_ORDER = ["Galaxy", "Nebula", "Cluster", "Star", "Planet", "Moon"];
 
 const state = {
   photos: [],
   activeCatalog: "All",
+  activeType: "All",
   query: "",
 };
 
@@ -10,7 +12,8 @@ const galleryEl = document.getElementById("gallery");
 const emptyStateEl = document.getElementById("empty-state");
 const resultCountEl = document.getElementById("result-count");
 const searchEl = document.getElementById("search");
-const filtersEl = document.getElementById("catalog-filters");
+const catalogFiltersEl = document.getElementById("catalog-filters");
+const typeFiltersEl = document.getElementById("type-filters");
 
 const lightboxEl = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
@@ -29,7 +32,8 @@ async function init() {
     console.error("Failed to load data/photos.json", err);
     state.photos = [];
   }
-  renderFilters();
+  renderFilterRow(catalogFiltersEl, "catalog", CATALOG_ORDER, "activeCatalog");
+  renderFilterRow(typeFiltersEl, "type", TYPE_ORDER, "activeType");
   render();
 
   searchEl.addEventListener("input", (e) => {
@@ -44,23 +48,25 @@ async function init() {
   });
 }
 
-function renderFilters() {
-  const present = new Set(state.photos.map((p) => p.catalog).filter(Boolean));
-  const catalogs = CATALOGS.filter((c) => present.has(c)).concat(
-    [...present].filter((c) => !CATALOGS.includes(c))
+function renderFilterRow(container, field, preferredOrder, stateKey) {
+  const present = new Set(state.photos.map((p) => p[field]).filter(Boolean));
+  const values = preferredOrder.filter((v) => present.has(v)).concat(
+    [...present].filter((v) => !preferredOrder.includes(v))
   );
 
-  filtersEl.innerHTML = "";
-  ["All", ...catalogs].forEach((catalog) => {
+  container.innerHTML = "";
+  if (values.length === 0) return;
+
+  ["All", ...values].forEach((value) => {
     const chip = document.createElement("button");
-    chip.className = "chip" + (catalog === state.activeCatalog ? " active" : "");
-    chip.textContent = catalog;
+    chip.className = "chip" + (value === state[stateKey] ? " active" : "");
+    chip.textContent = value;
     chip.addEventListener("click", () => {
-      state.activeCatalog = catalog;
-      renderFilters();
+      state[stateKey] = value;
+      renderFilterRow(container, field, preferredOrder, stateKey);
       render();
     });
-    filtersEl.appendChild(chip);
+    container.appendChild(chip);
   });
 }
 
@@ -69,6 +75,7 @@ function matchesQuery(photo, query) {
   const haystack = [
     photo.title,
     photo.catalog,
+    photo.type,
     ...(photo.designations || []),
     ...(photo.tags || []),
     photo.notes,
@@ -82,7 +89,8 @@ function matchesQuery(photo, query) {
 function getFiltered() {
   return state.photos.filter((p) => {
     const catalogOk = state.activeCatalog === "All" || p.catalog === state.activeCatalog;
-    return catalogOk && matchesQuery(p, state.query);
+    const typeOk = state.activeType === "All" || p.type === state.activeType;
+    return catalogOk && typeOk && matchesQuery(p, state.query);
   });
 }
 
