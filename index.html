@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starlog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>🔭 Starlog</h1>
+    <p class="subtitle">Astrophotography by Mrugen</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search by name, designation, or tag…" autocomplete="off">
+      <div id="catalog-filters" class="filter-chips"></div>
+    </div>
+
+    <p id="result-count" class="result-count"></p>
+
+    <div id="gallery" class="gallery"></div>
+    <p id="empty-state" class="empty-state" hidden>No photos match your search.</p>
+  </main>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+      <img id="lightbox-img" src="" alt="">
+      <div class="lightbox-info">
+        <h2 id="lightbox-title"></h2>
+        <div id="lightbox-badges" class="badges"></div>
+        <dl id="lightbox-meta" class="meta-list"></dl>
+        <p id="lightbox-notes" class="notes"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ic-1318",
+    "file": "images/ic-1318.jpg",
+    "title": "Gamma Cygni Nebula (Sadr Region)",
+    "designations": ["IC 1318"],
+    "catalog": "IC",
+    "tags": ["emission nebula", "cygnus", "h ii region"],
+    "date": "2026-09-06",
+    "equipment": "SeeStar S30",
+    "description": "A diffuse emission nebula and H II region surrounding the star Sadr (Gamma Cygni), which marks the center of the Northern Cross asterism in Cygnus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/IC_1318"
+  },
+  {
+    "id": "m-27",
+    "file": "images/m-27.jpg",
+    "title": "Dumbbell Nebula",
+    "designations": ["M 27", "NGC 6853"],
+    "catalog": "Messier",
+    "tags": ["planetary nebula", "vulpecula"],
+    "date": "2026-06-13",
+    "equipment": "SeeStar S30",
+    "description": "One of the brightest planetary nebulae in the sky, formed from the outer layers of gas shed by a dying star in the constellation Vulpecula.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dumbbell_Nebula"
+  },
+  {
+    "id": "m-29",
+    "file": "images/m-29.jpg",
+    "title": "Cooling Tower Cluster",
+    "designations": ["M 29", "NGC 6913"],
+    "catalog": "Messier",
+    "tags": ["open cluster", "cygnus"],
+    "date": "2026-09-07",
+    "equipment": "SeeStar S30",
+    "description": "A compact open star cluster in Cygnus, roughly 4,000 light-years away, containing a handful of hot, young, blue stars.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Messier_29"
+  },
+  {
+    "id": "m-56",
+    "file": "images/m-56.jpg",
+    "title": "Messier 56",
+    "designations": ["M 56", "NGC 6779"],
+    "catalog": "Messier",
+    "tags": ["globular cluster", "lyra"],
+    "date": "2026-09-06",
+    "equipment": "SeeStar S30",
+    "description": "A moderately dense globular cluster in the constellation Lyra, located roughly 33,000 light-years from Earth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Messier_56"
+  },
+  {
+    "id": "m-71",
+    "file": "images/m-71.jpg",
+    "title": "Messier 71",
+    "designations": ["M 71", "NGC 6838"],
+    "catalog": "Messier",
+    "tags": ["globular cluster", "sagitta"],
+    "date": "2026-09-06",
+    "equipment": "SeeStar S30",
+    "description": "A loosely concentrated globular cluster in the small constellation Sagitta, once debated as either a dense open cluster or a sparse globular cluster.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Messier_71"
+  },
+  {
+    "id": "m-75",
+    "file": "images/m-75.jpg",
+    "title": "Messier 75",
+    "designations": ["M 75", "NGC 6864"],
+    "catalog": "Messier",
+    "tags": ["globular cluster", "sagittarius"],
+    "date": "2026-09-06",
+    "equipment": "SeeStar S30",
+    "description": "A compact, highly concentrated globular cluster in Sagittarius, around 67,500 light-years away.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Messier_75"
+  },
+  {
+    "id": "ngc-6992",
+    "file": "images/ngc-6992.jpg",
+    "title": "Eastern Veil Nebula",
+    "designations": ["NGC 6992", "Caldwell 33"],
+    "catalog": "Caldwell",
+    "tags": ["supernova remnant", "emission nebula", "cygnus"],
+    "date": "2026-09-06",
+    "equipment": "SeeStar S30",
+    "description": "The brightest part of the Eastern half of the Veil Nebula, a large supernova remnant in Cygnus left behind by a star that exploded 10,000-20,000 years ago.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Veil_Nebula"
+  }
+]
