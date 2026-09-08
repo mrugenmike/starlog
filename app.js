@@ -27,7 +27,8 @@ init();
 async function init() {
   try {
     const res = await fetch("data/photos.json");
-    state.photos = await res.json();
+    const all = await res.json();
+    state.photos = all.filter((p) => !p.hidden);
   } catch (err) {
     console.error("Failed to load data/photos.json", err);
     state.photos = [];

@@ -40,6 +40,7 @@ A searchable, filterable gallery of astrophotography captured with a SeeStar tel
    - `description` — optional facts about the object itself, shown in the detail view.
    - `notes` — optional free-text about your imaging session, shown in italics in the detail view.
    - `wikipedia` — optional direct link. If omitted, the detail view links to a Wikipedia search for the photo's first designation/title instead.
+   - `hidden` — optional; set to `true` to keep the entry in `photos.json` but exclude it from the published gallery (e.g. while you're not happy with a shot yet, without deleting its metadata).
 
 4. Commit and push:
 
