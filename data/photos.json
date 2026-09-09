@@ -9,7 +9,9 @@
     "tags": ["emission nebula", "cygnus", "h ii region"],
     "date": "2026-09-06",
     "equipment": "SeeStar S30",
-    "description": "A diffuse emission nebula and H II region surrounding the star Sadr (Gamma Cygni), which marks the center of the Northern Cross asterism in Cygnus.",
+    "description": "A diffuse emission nebula and H II region surrounding the star Sadr (Gamma Cygni), which marks the center of the Northern Cross asterism in Cygnus. Sadr itself is a foreground star at only ~1,800 light-years — the nebula it appears to sit in is a separate, much more distant background structure.",
+    "distance": "~4,900 light-years",
+    "coordinates": "RA 20h 16m 48.0s, Dec +41° 57′ 24″",
     "wikipedia": "https://en.wikipedia.org/wiki/IC_1318"
   },
   {
@@ -23,6 +25,8 @@
     "date": "2026-06-13",
     "equipment": "SeeStar S30",
     "description": "One of the brightest planetary nebulae in the sky, formed from the outer layers of gas shed by a dying star in the constellation Vulpecula.",
+    "distance": "1,200 light-years",
+    "coordinates": "RA 19h 59m 36.3s, Dec +22° 43′ 16.1″",
     "wikipedia": "https://en.wikipedia.org/wiki/Dumbbell_Nebula"
   },
   {
@@ -36,6 +40,8 @@
     "date": "2026-09-07",
     "equipment": "SeeStar S30",
     "description": "A compact open star cluster in Cygnus, roughly 4,000 light-years away, containing a handful of hot, young, blue stars.",
+    "distance": "5,240 light-years",
+    "coordinates": "RA 20h 23m 56s, Dec +38° 31′ 24″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_29"
   },
   {
@@ -49,6 +55,8 @@
     "date": "2026-09-06",
     "equipment": "SeeStar S30",
     "description": "A moderately dense globular cluster in the constellation Lyra, located roughly 33,000 light-years from Earth.",
+    "distance": "33,000 light-years",
+    "coordinates": "RA 19h 16m 35.6s, Dec +30° 11′ 00.5″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_56"
   },
   {
@@ -62,6 +70,8 @@
     "date": "2026-09-06",
     "equipment": "SeeStar S30",
     "description": "A loosely concentrated globular cluster in the small constellation Sagitta, once debated as either a dense open cluster or a sparse globular cluster.",
+    "distance": "13,000 light-years",
+    "coordinates": "RA 19h 53m 46.5s, Dec +18° 46′ 45.1″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_71"
   },
   {
@@ -75,6 +85,8 @@
     "date": "2026-09-06",
     "equipment": "SeeStar S30",
     "description": "A compact, highly concentrated globular cluster in Sagittarius, around 67,500 light-years away.",
+    "distance": "67,500 light-years",
+    "coordinates": "RA 20h 06m 04.8s, Dec −21° 55′ 16.2″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_75"
   },
   {
@@ -88,6 +100,8 @@
     "date": "2026-09-06",
     "equipment": "SeeStar S30",
     "description": "The brightest part of the Eastern half of the Veil Nebula, a large supernova remnant in Cygnus left behind by a star that exploded 10,000-20,000 years ago.",
+    "distance": "2,400 light-years",
+    "coordinates": "RA 20h 45m 38.0s, Dec +30° 42′ 30″",
     "wikipedia": "https://en.wikipedia.org/wiki/Veil_Nebula"
   },
   {
@@ -101,6 +115,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A supernova remnant in Taurus from a star whose explosion was observed on Earth in 1054 AD; it now hosts the fast-spinning Crab Pulsar at its center.",
+    "distance": "6,500 light-years",
+    "coordinates": "RA 05h 34m 31.9s, Dec +22° 00′ 52.2″",
     "wikipedia": "https://en.wikipedia.org/wiki/Crab_Nebula",
     "hidden": true
   },
@@ -115,6 +131,8 @@
     "date": "2026-07-10",
     "equipment": "SeeStar S30",
     "description": "A loose, relatively nearby globular cluster in Scorpius, one of the easiest globulars to resolve into individual stars with modest equipment.",
+    "distance": "5,500 light-years",
+    "coordinates": "RA 16h 23m 35.2s, Dec −26° 31′ 32.7″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_4"
   },
   {
@@ -128,6 +146,8 @@
     "date": "2026-07-11",
     "equipment": "SeeStar S30",
     "description": "A large emission nebula and active star-forming region in Sagittarius, bright enough to be glimpsed with the naked eye under dark skies.",
+    "distance": "5,200 light-years",
+    "coordinates": "RA 18h 03m 37s, Dec −24° 23′ 12″",
     "wikipedia": "https://en.wikipedia.org/wiki/Lagoon_Nebula"
   },
   {
@@ -141,6 +161,8 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "One of the brightest globular clusters visible from the northern hemisphere, containing several hundred thousand stars packed into a sphere about 145 light-years across.",
+    "distance": "25,000 light-years",
+    "coordinates": "RA 16h 41m 41.2s, Dec +36° 27′ 35.5″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_13"
   },
   {
@@ -154,6 +176,8 @@
     "date": "2026-07-10",
     "equipment": "SeeStar S30",
     "description": "A young emission nebula and star cluster in Serpens, famous for the towering \"Pillars of Creation\" columns of gas and dust.",
+    "distance": "7,000 light-years",
+    "coordinates": "RA 18h 18m 48s, Dec −13° 49′",
     "wikipedia": "https://en.wikipedia.org/wiki/Eagle_Nebula"
   },
   {
@@ -167,6 +191,8 @@
     "date": "2026-06-13",
     "equipment": "SeeStar S30",
     "description": "A bright emission nebula and star-forming region in Sagittarius, also known as the Swan or Horseshoe Nebula for its distinctive shape.",
+    "distance": "5,500 light-years",
+    "coordinates": "RA 18h 20m 26s, Dec −16° 10′ 36″",
     "wikipedia": "https://en.wikipedia.org/wiki/Omega_Nebula"
   },
   {
@@ -180,6 +206,8 @@
     "date": "2026-06-12",
     "equipment": "SeeStar S30",
     "description": "A striking combination of an emission nebula, a reflection nebula, and a dark nebula in Sagittarius, split into lobes by dark dust lanes.",
+    "distance": "5,000 light-years",
+    "coordinates": "RA 18h 02m 23s, Dec −23° 01′ 48″",
     "wikipedia": "https://en.wikipedia.org/wiki/Trifid_Nebula"
   },
   {
@@ -193,6 +221,8 @@
     "date": "2026-07-10",
     "equipment": "SeeStar S30",
     "description": "A large, bright globular cluster in Sagittarius and one of the closest globulars to Earth.",
+    "distance": "10,000 light-years",
+    "coordinates": "RA 18h 36m 23.9s, Dec −23° 54′ 17.1″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_22"
   },
   {
@@ -206,6 +236,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A prominent open cluster of hot, young, blue stars in Taurus, wrapped in a faint reflection nebula and visible to the naked eye.",
+    "distance": "445 light-years",
+    "coordinates": "RA 03h 47m 24s, Dec +24° 07′ 00″",
     "wikipedia": "https://en.wikipedia.org/wiki/Pleiades"
   },
   {
@@ -219,6 +251,8 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "A lenticular galaxy near the core of the Virgo Cluster, one of the largest and brightest members of that cluster.",
+    "distance": "52 million light-years",
+    "coordinates": "RA 12h 26m 11.7s, Dec +12° 56′ 46″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_86"
   },
   {
@@ -232,6 +266,8 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "A tightly-wound spiral galaxy in Canes Venatici, known for a bright inner ring of active star formation.",
+    "distance": "16 million light-years",
+    "coordinates": "RA 12h 50m 53.1s, Dec +41° 07′ 14″",
     "wikipedia": "https://en.wikipedia.org/wiki/Messier_94"
   },
   {
@@ -245,6 +281,8 @@
     "date": "2026-06-12",
     "equipment": "SeeStar S30",
     "description": "A spiral galaxy in Virgo with an unusually large central bulge and a prominent dust lane, giving it the look of a wide-brimmed hat.",
+    "distance": "28 million light-years",
+    "coordinates": "RA 12h 39m 59.4s, Dec −11° 37′ 23″",
     "wikipedia": "https://en.wikipedia.org/wiki/Sombrero_Galaxy"
   },
   {
@@ -258,6 +296,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "An open cluster of stars in Gemini roughly 10,000 light-years away, discovered by William Herschel in 1783.",
+    "distance": "10,060 light-years",
+    "coordinates": "RA 07h 38m 25s, Dec +21° 34′ 30″",
     "wikipedia": "https://en.wikipedia.org/wiki/NGC_2420",
     "hidden": true
   },
@@ -272,6 +312,8 @@
     "date": "2026-06-12",
     "equipment": "SeeStar S30",
     "description": "An inclined spiral galaxy in Canes Venatici with a bright, active galactic nucleus.",
+    "distance": "53.7 million light-years",
+    "coordinates": "RA 13h 13m 27.5s, Dec +36° 35′ 38.1″",
     "wikipedia": "https://en.wikipedia.org/wiki/NGC_5033"
   },
   {
@@ -285,6 +327,8 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "An edge-on spiral galaxy in Draco, also called the Knife Edge Galaxy, known for a faint surrounding stellar stream from a cannibalized satellite galaxy.",
+    "distance": "46.5 million light-years",
+    "coordinates": "RA 15h 15m 53.2s, Dec +56° 19′ 47.6″",
     "wikipedia": "https://en.wikipedia.org/wiki/NGC_5907"
   },
   {
@@ -298,6 +342,8 @@
     "date": "2026-06-13",
     "equipment": "SeeStar S30",
     "description": "A large emission nebula and star-forming region in Scorpius, named for the pattern of glowing lobes resembling a cat's paw print.",
+    "distance": "5,500 light-years",
+    "coordinates": "RA 17h 20m 50.9s, Dec −36° 06′ 54″",
     "wikipedia": "https://en.wikipedia.org/wiki/NGC_6334"
   },
   {
@@ -307,10 +353,10 @@
     "designations": ["V488 Sagittae"],
     "catalog": "Other",
     "type": "Star",
-    "tags": ["variable star", "sagitta"],
+    "tags": ["nova", "cataclysmic variable", "sagitta"],
     "date": "2026-08-29",
     "equipment": "SeeStar S30",
-    "description": "A variable star in the small constellation Sagitta."
+    "description": "A nova that erupted recently in the small constellation Sagitta, catching this system mid-outburst."
   },
   {
     "id": "saturn",
@@ -323,6 +369,7 @@
     "date": "2026-08-29",
     "equipment": "SeeStar S30",
     "description": "The ringed gas giant, sixth planet from the Sun.",
+    "distance": "1.4 billion km (886 million mi) from the Sun on average (9.5 AU)",
     "wikipedia": "https://en.wikipedia.org/wiki/Saturn",
     "hidden": true
   },
@@ -337,6 +384,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "An orange giant star marking the eye of the bull in Taurus, and one of the brightest stars in the night sky.",
+    "distance": "67 light-years",
+    "coordinates": "RA 04h 35m 55.2s, Dec +16° 30′ 33.5″",
     "wikipedia": "https://en.wikipedia.org/wiki/Aldebaran",
     "hidden": true
   },
@@ -351,6 +400,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A red supergiant marking the shoulder of Orion, one of the largest and most luminous stars visible to the naked eye.",
+    "distance": "~548 light-years (estimates range ~400-600 ly)",
+    "coordinates": "RA 05h 55m 10.3s, Dec +07° 24′ 25.4″",
     "wikipedia": "https://en.wikipedia.org/wiki/Betelgeuse"
   },
   {
@@ -364,6 +415,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A bright binary star system in Canis Minor and one of the closest stars to the Sun.",
+    "distance": "11.46 light-years",
+    "coordinates": "RA 07h 39m 18.1s, Dec +05° 13′ 30.0″",
     "wikipedia": "https://en.wikipedia.org/wiki/Procyon",
     "hidden": true
   },
@@ -378,6 +431,7 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "Earth's only natural satellite.",
+    "distance": "384,400 km (238,855 mi) from Earth on average",
     "wikipedia": "https://en.wikipedia.org/wiki/Moon"
   },
   {
@@ -391,6 +445,7 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "The largest planet in the Solar System, a gas giant known for its Great Red Spot and large family of moons.",
+    "distance": "778 million km (484 million mi) from the Sun on average (5.2 AU)",
     "wikipedia": "https://en.wikipedia.org/wiki/Jupiter",
     "hidden": true
   },
@@ -405,6 +460,7 @@
     "date": "2026-06-12",
     "equipment": "SeeStar S30",
     "description": "The second planet from the Sun, similar in size to Earth but shrouded in a thick, hot, toxic atmosphere.",
+    "distance": "38-261 million km (24-162 million mi) from Earth, varies with orbital position",
     "wikipedia": "https://en.wikipedia.org/wiki/Venus",
     "hidden": true
   }

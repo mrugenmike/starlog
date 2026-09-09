@@ -166,6 +166,8 @@ function openLightbox(photo) {
   });
 
   lightboxMeta.innerHTML = "";
+  addMeta("Distance", photo.distance);
+  addMeta("Coordinates", photo.coordinates);
   addMeta("Date", photo.date);
   addMeta("Equipment", photo.equipment);
 
