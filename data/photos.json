@@ -101,7 +101,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A supernova remnant in Taurus from a star whose explosion was observed on Earth in 1054 AD; it now hosts the fast-spinning Crab Pulsar at its center.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Crab_Nebula"
+    "wikipedia": "https://en.wikipedia.org/wiki/Crab_Nebula",
+    "hidden": true
   },
   {
     "id": "m-4",
@@ -257,7 +258,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "An open cluster of stars in Gemini roughly 10,000 light-years away, discovered by William Herschel in 1783.",
-    "wikipedia": "https://en.wikipedia.org/wiki/NGC_2420"
+    "wikipedia": "https://en.wikipedia.org/wiki/NGC_2420",
+    "hidden": true
   },
   {
     "id": "ngc-5033",
@@ -321,7 +323,8 @@
     "date": "2026-08-29",
     "equipment": "SeeStar S30",
     "description": "The ringed gas giant, sixth planet from the Sun.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Saturn"
+    "wikipedia": "https://en.wikipedia.org/wiki/Saturn",
+    "hidden": true
   },
   {
     "id": "aldebaran",
@@ -334,7 +337,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "An orange giant star marking the eye of the bull in Taurus, and one of the brightest stars in the night sky.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Aldebaran"
+    "wikipedia": "https://en.wikipedia.org/wiki/Aldebaran",
+    "hidden": true
   },
   {
     "id": "betelgeuse",
@@ -360,7 +364,8 @@
     "date": "2025-12-04",
     "equipment": "SeeStar S30",
     "description": "A bright binary star system in Canis Minor and one of the closest stars to the Sun.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Procyon"
+    "wikipedia": "https://en.wikipedia.org/wiki/Procyon",
+    "hidden": true
   },
   {
     "id": "moon",
@@ -386,7 +391,8 @@
     "date": "2026-05-15",
     "equipment": "SeeStar S30",
     "description": "The largest planet in the Solar System, a gas giant known for its Great Red Spot and large family of moons.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jupiter"
+    "wikipedia": "https://en.wikipedia.org/wiki/Jupiter",
+    "hidden": true
   },
   {
     "id": "venus",
@@ -399,6 +405,7 @@
     "date": "2026-06-12",
     "equipment": "SeeStar S30",
     "description": "The second planet from the Sun, similar in size to Earth but shrouded in a thick, hot, toxic atmosphere.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Venus"
+    "wikipedia": "https://en.wikipedia.org/wiki/Venus",
+    "hidden": true
   }
 ]
